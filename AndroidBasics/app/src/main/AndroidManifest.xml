@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.filip.androidbasics">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".AndroidBasicsStarter"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LifeCycleTest"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="Life Cycle Test" />
+        <activity
+            android:name=".AnimationTest"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="Animation Test" />
+        <activity
+            android:name=".SwipeTest"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="Swipe Test" />
+        <activity
+            android:name=".MultiTouchTest"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="Multi Touch Test" />
+        <activity
+            android:name=".AccelerometerTest"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="Accelerometer Test" />
+        <activity
+            android:name=".AssetsTest"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="Assets Test" />
+        <activity
+            android:name=".ExternalStorageTest"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="External Storage Test" />
+        <activity
+            android:name=".SoundPoolTest"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="Sound Pool Test" />
+        <activity
+            android:name=".MediaPlayerTest"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="Media Player Test" />
+        <activity
+            android:name=".FullScreenTest"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="Full Screen Test" />
+        <activity
+            android:name=".RenderViewTest"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="Render View Test" />
+        <activity
+            android:name=".ShapeTest"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="Shape Test" />
+        <activity
+            android:name=".BitmapTest"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="Bitmap Test" />
+        <activity
+            android:name=".SurfaceViewTest"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="Surface View Test" ></activity>
+    </application>
+
+</manifest>
